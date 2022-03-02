@@ -1,0 +1,182 @@
+
+
+
+.prize {
+    width: 100%;
+    height: 35vh;
+    display: grid;
+    place-items: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.753) , rgba(34, 34, 34, 0.74)), url(imh/background-2426328.jpg);
+}
+
+.prize h1 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-prize {
+    width: 100%;
+    height: auto;
+}
+
+.prize-row {
+    /* width: 94%; */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    padding-bottom: 70px;
+}
+
+.prize-box {
+    margin: 15px;
+    flex-basis: 25%;
+    background: chocolate;
+    text-align: center;
+    color: white;
+}
+
+.prize-box h3 {
+    text-transform: uppercase;
+    margin: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.prize-box p {
+    line-height: 23px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+    text-transform: uppercase;
+}
+
+span#xx {
+    font-size: 9px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    /* margin-bottom: 41px; */
+}
+
+.prize-box ul {
+    margin-bottom: 25px;
+    margin-top: 30px;
+    list-style: none;
+}
+
+.prize-box ul li {
+    font-size: 14px;
+    padding: 6px 0px;
+}
+
+button#aa {
+    margin-bottom: 40px;
+    border: none;
+}
+
+.prize-box ul li i {
+    font-size: 9px;
+    background: gray;
+    margin: 5px;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+
+
+
+button#aa:hover {
+  border: 1px solid white;
+}
+
+
+span#ww {
+    font-size: 18px;
+}
+
+
+
+.prize-box h1 {
+    font-weight: 100;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+.main-prize {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.main-prize {}
+
+.main-prize h1 {
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.main-prize .nn{
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    line-height: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:960px) {
+
+    .prize-box {
+        flex-basis: 30%;
+    }
+    
+}
+
+
+
+@media (max-width:560px) {
+
+    .prize-box {
+        margin-bottom: 35px;
+        flex-basis: 80%;
+    }
+    
+}
